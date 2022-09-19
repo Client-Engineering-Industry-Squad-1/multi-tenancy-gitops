@@ -1,5 +1,5 @@
 resources:
-- model_server/pipelines/model_server.yaml
+- argocd/model_server/pipelines/model_server.yaml
 # - argocd/paw/paw.yaml
 
 #- argocd/ace/cicd.yaml
