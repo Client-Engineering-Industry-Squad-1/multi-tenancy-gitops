@@ -1,5 +1,6 @@
 resources:
 - argocd/model_server/pipelines/model_server.yaml
+- argocd/model_server/pipelines/my_other_model.yaml
 - argocd/model_server/pipelines/rf_pipe.yaml
 
 - argocd/model_server/deployments/dev/rf_pipe.yaml
