@@ -14,7 +14,7 @@ spec:
     server: https://kubernetes.default.svc
   project: applications
   source:
-    path: document_understanding/deployments/dev/document_understanding.yaml
+    path: document_understanding/deployments/dev/document_understanding
   syncPolicy:
     automated:
       prune: true
