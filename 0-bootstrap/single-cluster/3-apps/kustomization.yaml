@@ -6,7 +6,7 @@ resources:
 - argocd/model_server/deployments/dev/rf_pipe.yaml
 - argocd/model_server/deployments/dev/my_other_model.yaml
 - argocd/paw/paw.yaml
-- argocd/document_understanding/deployments/base/document_understanding.yaml
+- argocd/document_understanding/deployments/dev/document_understanding.yaml
 
 #- argocd/ace/cicd.yaml
 #- argocd/ace/dev.yaml
