@@ -1,0 +1,21 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: apps-document-understanding-dev
+  annotations:
+    argocd.argoproj.io/sync-wave: "300"
+  labels:
+    gitops.tier.layer: applications
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
+spec:
+  destination:
+    namespace: dev
+    server: https://kubernetes.default.svc
+  project: applications
+  source:
+    path: document_understanding/deployments/dev/document_understanding.yaml
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
