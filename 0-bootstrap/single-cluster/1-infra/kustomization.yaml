@@ -17,7 +17,7 @@ resources:
 #- argocd/namespace-knative-eventing.yaml
 #- argocd/namespace-knative-serving.yaml
 #- argocd/namespace-knative-serving-ingress.yaml
-#- argocd/namespace-openshift-storage.yaml
+- argocd/namespace-openshift-storage.yaml
 #- argocd/namespace-spp.yaml
 #- argocd/namespace-spp-velero.yaml
 #- argocd/namespace-baas.yaml
@@ -34,7 +34,7 @@ resources:
 #- argocd/sfg-b2bi-clusterwide.yaml
 #- argocd/scc-wkc-iis.yaml
 #- argocd/norootsquash.yaml
-#- argocd/storage.yaml
+- argocd/storage.yaml
 #- argocd/infraconfig.yaml
 #- argocd/machinesets.yaml
 patches:
