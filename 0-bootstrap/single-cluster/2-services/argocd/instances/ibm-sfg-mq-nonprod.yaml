@@ -20,7 +20,7 @@ spec:
     helm:
       values: |
         service-account:
-          name: mq
+          name: b2bi
           create: false
           sccs: ["privileged"]
 
@@ -30,7 +30,7 @@ spec:
             type: ClusterIP
           replicaCount: 1
           serviceName: mq
-          serviceAccount: mq
+          serviceAccount: b2bi
           image:
             repository: ibmcom/mq
             pullPolicy: IfNotPresent
