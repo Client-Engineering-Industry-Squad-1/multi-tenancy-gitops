@@ -93,7 +93,7 @@ spec:
   - group: ""
     kind: PersistentVolume
   - group: policy
-    kind: podsecuritypolicies
+    kind: PodSecurityPolicy
   roles:
   # A role which provides read-only access to all applications in the project
   - name: read-only
