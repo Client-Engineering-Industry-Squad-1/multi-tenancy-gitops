@@ -44,7 +44,7 @@ rules:
     apiGroups:
       - 'policy'
     resources:
-      - PodSecurityPolicy
+      - podsecuritypolicies
   - verbs:
       - '*'
     apiGroups:
