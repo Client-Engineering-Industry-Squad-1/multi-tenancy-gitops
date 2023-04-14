@@ -61,6 +61,7 @@ resources:
 - argocd/instances/ibm-queuemanager-instance.yaml
 - argocd/instances/mssql.yaml
 - argocd/instances/ibm-sfg-b2bi-setup.yaml
+- argocd/instance/ibm-sfg-b2bi-mssql.yaml
 # - argocd/instances/ibm-sfg-b2bi.yaml
 #- argocd/instances/ibm-sfg-db2-prod.yaml
 #- argocd/instances/ibm-sfg-mq-prod.yaml
